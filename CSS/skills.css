@@ -1,4 +1,17 @@
-.container-fluid ul{margin-left: 1150px;}
+html,.leftcon,.mainbody,.background, body, div, h1, h2, h3, h4, h5, h6, p, a,.container0,.container1,.container2 {
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    font: inherit;
+  }
+
+
+
+
 .background{background-color: rgb(0, 0, 0);
 height: 100%;
 color: white;
@@ -9,19 +22,41 @@ h1,h2,h3,p,li,td{color: white;}
 h1,h2,h3{padding: 15px;
 padding-top: 40px;
 padding-bottom: 40px;
+animation: ani;
+animation-duration: 2s;
+font-size: 30px;
 }
 
-h1,h2,h3{animation: ani;
-    animation-duration: 2s;
-}
 
-@keyframes ani{0%   {color:rgb(255, 255, 255); left:0px; top:0px;}
-25%  {color:rgba(255, 255, 255, 0.164); left:200px; top:0px;}}
-
-h1{text-transform: capitalize;}
+h1{text-transform: capitalize;font-size: 50px;}
 
 td,.certification li{font-size: 20px;color: rgba(245, 245, 245, 0.438 );}
 .certification li:hover,td:hover{color: rgba(255, 255, 255, 0.555);}
+
+.container0,.container1,.container2{position: relative;}
+
+.container0{background-color: rgb(91, 91, 91);padding: 10px;}
+
+.container01 ul { list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 1000px;text-align: center; text-decoration: none;
+    padding-left: 1300px;
+    }
+      
+ li a { float: left;
+     display: block;
+        color: rgba(255, 255, 255, 0.489);
+        font-size: 20px;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+li a:hover{color: white;}
+
 
 .container1{padding-bottom:30px ; padding-top: 30px; text-align: center; background-color: rgb(99, 99, 99);}
 
